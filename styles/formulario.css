@@ -1,0 +1,9 @@
+/* Seletor de tag */
+h1 {
+    color: #09f309;
+}
+
+/* Seletor de classe é usando o *.* */
+.block {
+    display: block;   
+}
