@@ -10,17 +10,18 @@
         color: #09f309;
             }
         label {
-        display: block;   
+        display: block;
             }
     </style> -->
 </head>
 <body>
+    <main>
     <h1>Cadastro</h1>
     <form>
         <!-- Para cadastrar o Nome -->
         <div>
             <label class="block" for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            <input type="text" id="name" name="nome" required placeholder="Digite seu nome">
         </div>
 
         <!-- Para cadastrar o Email -->
@@ -62,6 +63,7 @@
                 <label class="block" for="observacao">Em caso de outro, especifique:</label>
                 <textarea name="observacao" id="observacao" maxlength="10"></textarea>
             </div>
+        <!-- Para Inserir habilidades -->
         </div>
         <legend>Qual a sua Stack?</legend>
         <div>
@@ -76,8 +78,8 @@
             <input type="checkbox" name="stack" id="js" value="javascript">
             <label for="js">JavaScript</label>
         </div>
-        <button>Cadastrar</button>
-
+        <button class="btn">Cadastrar</button>
     </form>
+    </main>
 </body>
 </html>

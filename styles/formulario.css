@@ -1,9 +1,64 @@
+/* Seler GLobal "*" */
+
+* {
+    margin: 0;  /* Margin: Espaçamento Externo */
+    padding: 0; /* Padding: Espaçamento Inteno */
+    border: 0;
+    outline: 0; /* Outline: Linha fora da borda*/
+    box-sizing: border-box; /* Sever para que ele considere a borda como limte em relação ao tamanho da caixa*/
+}
+
+body {  
+    color: #dcd2d2;
+    background-color: rgba(245, 222, 179, 1);
+    margin: 50px;
+}
+
+main {  
+    width: 38%;
+    background-color: rgba(101, 67, 33, 1);
+    margin:auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 /* Seletor de tag */
 h1 {
-    color: #09f309;
+    color: rgba(245, 222, 179, 1);
+    text-align: start;
+    margin-bottom: 10px;
 }
+
+#name, #email, #senha {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.682);
+}
+
+#name:focus, #email:focus, #senha:focus {
+    outline: 8px solid #dcd2d2;
+}
+
+#nasc, textarea {
+    background-color: rgba(255, 228, 196, 0.655);
+    text-align: center;
+    
+}
+
+/* form {
+    text-align: center;
+} */
 
 /* Seletor de classe é usando o *.* */
 .block {
-    display: block;   
+    display: block; 
+}
+
+.btn {
+    background-color: #ffffff;
+    padding: 5px 10px;
+    color: #630f0f;
+    border-radius: 20px;
+    width: 100%;
 }
